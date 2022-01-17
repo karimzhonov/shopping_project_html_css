@@ -1,0 +1,269 @@
+@import "vars/vars"
+
+.page_products_title
+  margin-top: 72px
+  width: 100%
+  background-color: $products_title_background
+  height: 150px
+
+
+.page_products_title_flex
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+
+.page_products_title_left
+  margin: 0 0 0 0
+  font-family: 'Lato',sans-serif
+  font-size: 28px
+  font-weight: 900
+  font-stretch: normal
+  font-style: normal
+  line-height: 0.83
+  letter-spacing: normal
+  color: $pink
+
+
+
+.page_products_title_right
+  font-family: 'Lato',sans-serif,sans-serif
+  font-size: 18px
+  font-weight: 500
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.43
+  letter-spacing: normal
+  color: #636363
+
+
+.page_products_title_right > span
+  font-weight: bold
+  color: $pink
+
+
+
+.page_checkout
+  width: 100%
+  margin-top: 40px
+  margin-bottom: 40px
+  &_items
+    display: flex
+    width: 100%
+    flex-wrap: wrap
+  &_item
+    height: 74.167px
+    overflow: hidden
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    width: 100%
+    border-top: 1px solid #e8e8e8
+    border-bottom: 1px solid $product_background_border
+    padding: 25px 15px
+    &:nth-child(1)
+      height: auto
+    h2
+      width: 100%
+      font-family: 'Lato',sans-serif
+      font-size: 20px
+      font-weight: 900
+      font-stretch: normal
+      font-style: normal
+      line-height: normal
+      letter-spacing: normal
+      text-align: left
+      color: $black
+      padding-bottom: 25px
+      border-bottom: 1px solid $product_background_border
+      span
+        padding-right: 5px
+    &_left
+      width: 50%
+      display: flex
+      flex-wrap: wrap
+
+      h3
+        text-transform: uppercase
+        width: 100%
+        padding: 10px 25px
+        font-family: 'Lato',sans-serif
+        font-size: 13px
+        font-weight: 800
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        color: $black
+      p
+        width: 100%
+        padding: 6px 25px
+        font-family: 'Lato',sans-serif
+        font-size: 13px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.54
+        letter-spacing: normal
+        color: #b3b2b2
+      &_form
+        display: flex
+        flex-wrap: wrap
+        margin: 20px 0
+        label
+          position: relative
+          width: 100%
+          padding: 6px 25px
+          font-family: 'Lato',sans-serif
+          font-size: 13px
+          font-weight: 800
+          font-stretch: normal
+          font-style: normal
+          line-height: normal
+          letter-spacing: normal
+          color: $black
+          text-transform: uppercase
+          display: flex
+          cursor: pointer
+          &:before
+            content: ""
+            width: 10px
+            height: 10px
+            border: solid 2px #555555
+            background-color: #ffffff
+            border-radius: 50%
+            margin-right: 5px
+          div
+            position: absolute
+            top: 10px
+            left: 29px
+            visibility: hidden
+            width: 6px
+            height: 6px
+            border-radius: 50%
+            background-color: #555555
+      p
+        i
+          font-size: 10px
+          line-height: 13px
+          margin-right: 2px
+      &_btn
+        margin: 35px 0 35px 25px
+        padding: 13px 38px
+        border: solid 1px #eaeaea
+        background-color: #ffffff
+        font-family: 'Lato' , sans-serif
+        font-size: 14px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        color: #4a4a4a
+        cursor: pointer
+        &:hover
+          background-color: $pink
+          color: $white
+          box-shadow: 0 0 7px 4px $product_background_border
+
+    &_right
+      width: 49%
+      display: flex
+      flex-wrap: wrap
+      align-content: flex-start
+      h3
+        text-transform: uppercase
+        width: 100%
+        min-height: 1px
+        padding: 10px 0 6px
+        font-family: 'Lato',sans-serif
+        font-size: 13px
+        font-weight: 800
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        color: $black
+      p
+        width: 100%
+        padding: 6px 0
+        font-family: 'Lato',sans-serif
+        font-size: 13px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.54
+        letter-spacing: normal
+        color: #b3b2b2
+        span
+          color: #ff0d0d
+      label
+        text-transform: uppercase
+        width: 100%
+        padding: 13px 0 11px
+        font-family: 'Lato',sans-serif
+        font-size: 13px
+        font-weight: 800
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        color: $black
+        span
+          color: #ff0d0d
+
+      input
+        width: 280px
+        height: 32px
+        border: solid 1px #eaeaea
+        background-color: #ffffff
+      &_check
+        font-weight: 700
+      div
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        color: #4a4a4a
+
+      &_btn
+        padding: 15px 45px
+        border: solid 1px #eaeaea
+        cursor: pointer
+        &:hover
+          color: $white
+          background-color: $pink
+          box-shadow: 0 0 7px 4px $product_background_border
+
+      &_forget
+        margin: 15px 45px
+        cursor: pointer
+        &:hover
+          color: $pink
+
+
+input[type=radio]
+  visibility: hidden
+
+input[type=radio]:checked + label > div
+  visibility: visible
+
+@media screen and (max-width: 768px)
+  .page_checkout_item
+
+    display: flex
+    flex-direction: column
+
+    &_left , &_right
+      width: 100%
+      h3 , p , label , input
+        padding-left: 25px
+
+  .page_checkout_item
+
+    &_left_btn , &_right_btn
+        width: auto

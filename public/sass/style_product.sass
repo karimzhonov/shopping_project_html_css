@@ -1,0 +1,381 @@
+@import "vars/vars"
+
+.page_products_title
+  margin-top: 72px
+  width: 100%
+  background-color: $products_title_background
+  height: 150px
+
+
+.page_products_title_flex
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+
+.page_products_title_left
+  margin: 0 0 0 0
+  font-family: 'Lato', sans-serif
+  font-size: 28px
+  font-weight: 900
+  font-stretch: normal
+  font-style: normal
+  line-height: 0.83
+  letter-spacing: normal
+  color: $pink
+
+
+
+.page_products_title_right
+  font-family: 'Lato', sans-serif
+  font-size: 18px
+  font-weight: 500
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.43
+  letter-spacing: normal
+  color: #636363
+
+
+.page_products_title_right > span
+  font-weight: bold
+  color: $pink
+
+.page_product
+  width: 100%
+  padding-bottom: 80px
+  background-color: $product_background
+  border: solid 1px $product_background_border
+  &_flex
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &_left
+      min-width: 34px
+      min-height: 34px
+      border-radius: 50%
+      border: 1px solid $pink
+      text-align: center
+      margin: 0 10px 0 10px
+
+      i
+        line-height: 34px
+        font-size: 20px
+        margin-right: 2px
+
+      &:hover
+        background-color: $pink
+        box-shadow: 0 0 7px 4px rgb(0 , 0 , 0 , 0.17%)
+        i
+          color: $white
+
+    &_center
+      max-width: 420px
+      max-height: 520px
+      margin: 30px 50px 7px 50px
+
+      img
+        width: 100%
+        height: 100%
+    &_right
+      min-width: 34px
+      min-height: 34px
+      border-radius: 50%
+      border: 1px solid $pink
+      text-align: center
+      margin: 0 10px 0 10px
+
+      i
+        line-height: 34px
+        font-size: 20px
+
+        margin-left: 2px
+      &:hover
+        background-color: $pink
+        box-shadow: 0 0 7px 4px rgb(0 , 0 , 0 , 0.17%)
+        i
+          color: $white
+
+
+.page_product_item
+  width: 100%
+  margin-top: -110px
+  &_flex
+    border: solid 1px #eaeaea
+    background-color: $white
+    width: 100%
+    height: 100%
+    margin: 50px 0 80px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    padding: 50px 13% 0
+
+    h2
+      width: 100%
+      font-family: 'Lato', sans-serif
+      font-size: 14px
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.71
+      letter-spacing: normal
+      text-align: center
+      color: $pink
+
+    &_pos
+      display: flex
+      justify-content: center
+      margin: 11px 0
+      height: 1px
+      width: 105px
+      border: solid 1px $product_background_border
+      background-color: $white
+      div
+        margin-top: -1px
+        width: 45px
+        height: 3px
+        background-color: $pink
+        border-radius: 1.5px
+    h5
+      width: 100%
+      margin: 12px 0 48px 0
+      font-family: 'Lato', sans-serif
+      font-size: 18px
+      font-weight: 900
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.33
+      letter-spacing: normal
+      text-align: center
+      color: #4d4d4d
+
+    p
+      font-family: 'Lato', sans-serif
+      font-size: 14px
+      font-weight: 300
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.71
+      letter-spacing: normal
+      text-align: center
+      color: #5e5e5e
+      padding: 0 40px
+
+    &_mat_des
+      display: flex
+      width: 100%
+      justify-content: center
+
+      p
+        padding: 15px
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: 1.71
+        letter-spacing: normal
+        text-align: center
+        color: #b9b9b9
+        span
+          color: #2f2f2f
+    &_price
+      width: 100%
+      padding: 10px 0 30px
+      border-bottom: solid 1px #eaeaea
+      font-family: 'Lato', sans-serif
+      font-size: 24px
+      font-weight: bold
+      font-stretch: normal
+      font-style: normal
+      line-height: 1
+      letter-spacing: normal
+      text-align: center
+      color: #ef5b70
+    &_form
+      display: flex
+      width: 100%
+      margin: 35px 50px
+      flex-wrap: wrap
+      justify-content: space-between
+      &_item
+        width: 30%
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        h3
+          width: 100%
+          text-align: center
+          margin: 11px auto
+          font-family: 'Lato', sans-serif
+          font-size: 14px
+          font-weight: bold
+          font-stretch: normal
+          font-style: normal
+          line-height: 1.71
+          letter-spacing: normal
+          color: #2f2f2f
+        input
+          width: 100%
+          padding: 8px 7px 8px 10px
+          border: solid 1px #eaeaea
+          background-color: #ffffff
+    &_btn
+      cursor: pointer
+      width: 100%
+      margin: 0 50px 80px 50px
+      text-align: center
+      padding: 11px 0
+      border: solid 1px $pink
+      background-color: $white
+      color: $pink
+      &:hover
+        background-color: $pink
+        color: $white
+        box-shadow: 0 0 7px 3px rgb(0 0 0 / 16%)
+        i
+          color: $white
+      i
+        color: $pink
+        font-size: 18px
+        margin: 0 5px
+
+
+.page_product_also
+  width: 100%
+
+.product_title
+  text-transform: uppercase
+  margin-top: 5px
+  font-family: 'Lato', sans-serif
+  font-size: 24px
+  font-weight: 900
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.79
+  letter-spacing: 0.54px
+  text-align: center
+  color: #222222
+
+
+
+.product_items
+  text-align: left
+  margin-top: 50px
+  margin-bottom: 50px
+  display: flex
+  justify-content: space-evenly
+
+
+
+.product_item
+  background-color: #fff
+  min-width: 23%
+  min-height: 350px
+  margin: 20px
+  position: relative
+
+
+.product_item > img
+  width: 100%
+  height: 300px
+
+
+.product_item > div
+  top: 0
+  visibility: hidden
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 100
+  width: 100%
+  height: 300px
+  opacity: 0.7
+  background-color: rgb(71, 68, 68)
+
+
+.add_to_cart
+  padding: 7px 9px 5px 8px
+  border: solid 1px #ffffff
+  color: #ffffff
+  display: flex
+
+
+
+.add_to_cart > i
+  line-height: 25px
+
+
+.add_to_cart > p
+  margin: 3px 0 5px 4px
+  font-family: 'Lato', sans-serif
+  font-size: 14px
+  font-weight: bold
+  font-stretch: normal
+  font-style: normal
+  line-height: normal
+  letter-spacing: normal
+  text-align: left
+  color: #ffffff
+
+
+.add_to_cart:hover
+  box-shadow: 0 0 8px #fff
+
+
+.product_item:hover
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16)
+
+
+.product_item:hover > div
+  visibility: visible
+
+
+
+
+
+
+.product_subtitle
+  display: flex
+  text-transform: uppercase
+  font-weight: 900
+  margin-top: 14px
+  margin-left: 8px
+  font-family: 'Lato', sans-serif
+  font-size: 12px
+  font-stretch: normal
+  font-style: normal
+  line-height: normal
+  letter-spacing: normal
+  color: #222222
+
+
+.product_price
+  margin-left: 8px
+  margin-top: 12px
+  margin-bottom: 20px
+  font-weight: 900
+  color: #f16d7f
+
+@media screen and (max-width: 991px)
+  .product_items
+    flex-wrap: wrap
+
+  .product_item:last-child
+    display: none
+
+@media screen and (max-width: 869px)
+  .product_item:last-child
+    display: inline
+
+@media screen and (max-width: 768px)
+  .page_product_item_flex_form_items
+    flex-wrap: wrap
+    flex-direction: column
+
+  .page_product_item_flex_form_item
+    width: 100%

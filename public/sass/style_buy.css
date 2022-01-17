@@ -1,0 +1,292 @@
+.page_products_title {
+  margin-top: 72px;
+  width: 100%;
+  background-color: #f8f3f4;
+  height: 150px;
+}
+
+.page_products_title_flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_products_title_left {
+  margin: 0 0 0 0;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  color: #f16d7f;
+}
+
+.page_products_title_right {
+  font-family: "Lato", sans-serif, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #636363;
+}
+
+.page_products_title_right > span {
+  font-weight: bold;
+  color: #f16d7f;
+}
+
+.page_checkout {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.page_checkout_items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.page_checkout_item {
+  height: 74.167px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #eaeaea;
+  padding: 25px 15px;
+}
+.page_checkout_item:nth-child(1) {
+  height: auto;
+}
+.page_checkout_item h2 {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eaeaea;
+}
+.page_checkout_item h2 span {
+  padding-right: 5px;
+}
+.page_checkout_item_left {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page_checkout_item_left h3 {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+.page_checkout_item_left p {
+  width: 100%;
+  padding: 6px 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #b3b2b2;
+}
+.page_checkout_item_left_form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.page_checkout_item_left_form label {
+  position: relative;
+  width: 100%;
+  padding: 6px 25px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  text-transform: uppercase;
+  display: flex;
+  cursor: pointer;
+}
+.page_checkout_item_left_form label:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: solid 2px #555555;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.page_checkout_item_left_form label div {
+  position: absolute;
+  top: 10px;
+  left: 29px;
+  visibility: hidden;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #555555;
+}
+.page_checkout_item_left p i {
+  font-size: 10px;
+  line-height: 13px;
+  margin-right: 2px;
+}
+.page_checkout_item_left_btn {
+  margin: 35px 0 35px 25px;
+  padding: 13px 38px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+.page_checkout_item_left_btn:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  box-shadow: 0 0 7px 4px #eaeaea;
+}
+.page_checkout_item_right {
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.page_checkout_item_right h3 {
+  text-transform: uppercase;
+  width: 100%;
+  min-height: 1px;
+  padding: 10px 0 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+.page_checkout_item_right p {
+  width: 100%;
+  padding: 6px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: #b3b2b2;
+}
+.page_checkout_item_right p span {
+  color: #ff0d0d;
+}
+.page_checkout_item_right label {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 13px 0 11px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+.page_checkout_item_right label span {
+  color: #ff0d0d;
+}
+.page_checkout_item_right input {
+  width: 280px;
+  height: 32px;
+  border: solid 1px #eaeaea;
+  background-color: #ffffff;
+}
+.page_checkout_item_right_check {
+  font-weight: 700;
+}
+.page_checkout_item_right div {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.page_checkout_item_right_btn {
+  padding: 15px 45px;
+  border: solid 1px #eaeaea;
+  cursor: pointer;
+}
+.page_checkout_item_right_btn:hover {
+  color: #ffffff;
+  background-color: #f16d7f;
+  box-shadow: 0 0 7px 4px #eaeaea;
+}
+.page_checkout_item_right_forget {
+  margin: 15px 45px;
+  cursor: pointer;
+}
+.page_checkout_item_right_forget:hover {
+  color: #f16d7f;
+}
+
+input[type=radio] {
+  visibility: hidden;
+}
+
+input[type=radio]:checked + label > div {
+  visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+  .page_checkout_item {
+    display: flex;
+    flex-direction: column;
+  }
+  .page_checkout_item_left, .page_checkout_item_right {
+    width: 100%;
+  }
+  .page_checkout_item_left h3, .page_checkout_item_left p, .page_checkout_item_left label, .page_checkout_item_left input, .page_checkout_item_right h3, .page_checkout_item_right p, .page_checkout_item_right label, .page_checkout_item_right input {
+    padding-left: 25px;
+  }
+
+  .page_checkout_item_left_btn, .page_checkout_item_right_btn {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style_buy.css.map */
